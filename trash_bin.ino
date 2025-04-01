@@ -23,7 +23,7 @@ float distanceF() {
   digitalWrite(trigPin, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin, HIGH);
-  delayMicroseconds(15);
+  delayMicroseconds(10);
   digitalWrite(trigPin, LOW);
 
   duration = pulseIn(echoPin, HIGH);
@@ -39,7 +39,7 @@ float distanceL() {
   digitalWrite(trigPin2, LOW);
   delayMicroseconds(2);
   digitalWrite(trigPin2, HIGH);
-  delayMicroseconds(15);
+  delayMicroseconds(10);
   digitalWrite(trigPin2, LOW);
 
   duration2 = pulseIn(echoPin2, HIGH);
