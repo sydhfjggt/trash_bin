@@ -63,7 +63,7 @@ void openServo() {
     myServo.write(90);
     delay(1000);
   } else {
-    myServo.write(0);
+    myServo.write(180);
   }
 }
 
